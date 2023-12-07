@@ -1,10 +1,12 @@
 # Taste Of API
 
-- **Flutter Mobile Application**
-- **Website using HTML, CSS & Javascript**
-- **Website simulating a chatbot using RecipeDB & FlavourDB API**
-
 Taste Of API is a mobile app and a website that helps chefs and homemakers discover new dishes or find variations of existing ones based on their preferred cuisine, calorie preference or protein preferences. It uses the RecipeDB API to fetch and display recipes. It uses the FlavourDB API to fetch the all the similar dishes with the entered name.
+
+## Contents
+
+- Flutter Mobile Application
+- Website using HTML, CSS & Javascript
+- Website simulating a chatbot using RecipeDB & FlavourDB API
 
 ## Features
 
@@ -29,3 +31,15 @@ Taste Of API is a mobile app and a website that helps chefs and homemakers disco
    ```bash
    git clone https://github.com/Vikranth3140/Taste-Of-API.git
    ```
+
+## Note
+Ensure you keep your API keys confidential and do not share it publicly.
+
+## Authors
+[Vikranth Udandarao](https://github.com/Vikranth3140)
+\
+[Harsh Mistry](https://github.com/FakePickle/)
+\
+[Noel Tiju](https://github.com/noeltiju/)
+\
+[Muthuraj Vairamuthu](https://github.com/Muthuraj-Vairamuthu)
