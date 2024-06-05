@@ -13,6 +13,7 @@ headers = {
     }
 
 params = {"client_id": "app-ims", "grant_type": "password" , "username":"forkit-hackathon" , "password":"forkitiiitdelhi" , "scope":"openid"}
+
 # Public API URL
 base_url = "https://cosylab.iiitd.edu.in/api/entity/entityautocomplete?name="
 
@@ -23,8 +24,10 @@ st.markdown(
     "<h3 style='color: lightgrey; font-family: Helvetica, sans-serif; font-size: 14px;'>Simply enter the name of a dish you love, and let us whisk you away to a world of delightful flavors</h3>",
     unsafe_allow_html=True
 )
+
 # Take user input and add placeholder
 prompt = st.text_input("Type here!")
+
 # Function to make API request and handle response
 def make_api_request(prompt):
     
@@ -40,7 +43,6 @@ def make_api_request(prompt):
         st.write("Error: Unable to fetch data.")
         return None
 
-# Show things on the screen if prompt exists
 # Show things on the screen if prompt exists
 if st.button("Submit"):
     if prompt:
